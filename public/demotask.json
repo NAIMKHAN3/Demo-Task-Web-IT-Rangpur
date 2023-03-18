@@ -1,0 +1,38 @@
+[
+    {
+        "_id": 1,
+        "name": "Automated Software",
+        "details": "It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.",
+        "icon": "<AiOutlineFileSearch></AiOutlineFileSearch>"
+    },
+    {
+        "_id": 2,
+        "name": "IT Consultancy",
+        "details": "It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.",
+        "icon": ""
+    },
+    {
+        "_id": 3,
+        "name": "Marketing Strategy",
+        "details": "It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.",
+        "icon": ""
+    },
+    {
+        "_id": 4,
+        "name": "Data Structuring",
+        "details": "It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.",
+        "icon": ""
+    },
+    {
+        "_id": 5,
+        "name": "Managed IT Services",
+        "details": "It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.",
+        "icon": ""
+    },
+    {
+        "_id": 6,
+        "name": "Software Development",
+        "details": "It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.",
+        "icon": ""
+    }
+]
