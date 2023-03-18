@@ -1,0 +1,17 @@
+.team-body {
+    background-color: #2600ff65;
+    transition: 1s;
+}
+
+.team-parant:hover .team-body {
+    right: 0;
+}
+
+.member-details:hover .team-parant .team-body {
+    right: 0;
+}
+
+.team-body .social-icon:hover {
+    color: orange;
+    transition: 1s;
+}

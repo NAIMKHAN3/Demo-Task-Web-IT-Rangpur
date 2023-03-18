@@ -1,14 +1,14 @@
 import React from 'react';
 import { BsArrowRightCircleFill } from "react-icons/bs";
-import { AiOutlineFileSearch } from "react-icons/ai";
 
-const ServiceCard = ({ service }) => {
+const ServiceCard = ({ service, icon }) => {
+
     return (
-        <div className='mx-auto shadow-md bg-white p-7 border'>
-            <span>{service.icon}</span>
-            <h1 className='text-2xl font-bold'>{service.name}</h1>
-            <p className='text-xl my-7'>{service.details}</p>
-            <button className='border rounded text-s py-2 px-6 text-blue-700 flex justify-center items-center'>READ MORE <span className='mx-2 text-blue-700'><BsArrowRightCircleFill></BsArrowRightCircleFill></span></button>
+        <div className='mx-3 lg:mx-auto shadow-md bg-white p-7 border service-card '>
+            <span className='text-6xl my-10 text-blue-500 service-icon'>{icon}</span>
+            <h1 className='text-2xl font-bold my-4'>Automated Software</h1>
+            <p className='text-xl mb-7'>It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.</p>
+            <button className='border rounded text-s py-2 px-6 mb-5 text-blue-700 flex justify-center items-center service-btn'>READ MORE <span className='mx-2 text-blue-700 service-btn-icon'><BsArrowRightCircleFill></BsArrowRightCircleFill></span></button>
         </div>
     );
 };

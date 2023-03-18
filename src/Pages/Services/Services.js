@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import ServiceCard from './ServiceCard';
-import { BsArrowRightCircleFill } from "react-icons/bs";
+import { HiOutlineLightBulb, HiOutlineDesktopComputer } from "react-icons/hi";
 import { AiOutlineFileSearch } from "react-icons/ai";
+import { ImTree } from "react-icons/im";
+import { FaRegChartBar } from "react-icons/fa";
+import { MdManageAccounts } from "react-icons/md";
+import './servicecard.css'
+import Team from '../Team/Team';
 
 const Services = () => {
     const [services, setServices] = useState([])
@@ -11,17 +16,23 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     console.log(services)
+
+    const icons = [
+        <AiOutlineFileSearch />,
+        <HiOutlineLightBulb />,
+        <ImTree />,
+        <FaRegChartBar />,
+        <MdManageAccounts />,
+        <HiOutlineDesktopComputer />]
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto max-w-7xl'>
-            {/* {
-                services.map(service => <ServiceCard key={service._id} service={service}></ServiceCard>)
-            } */}
-            <div className='mx-auto shadow-md bg-white p-7 border'>
-                <span className='text-6xl'><AiOutlineFileSearch></AiOutlineFileSearch></span>
-                <h1 className='text-2xl font-bold my-4'>Automated Software</h1>
-                <p className='text-xl mb-7'>It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.</p>
-                <button className='border rounded text-s py-2 px-6 text-blue-700 flex justify-center items-center'>READ MORE <span className='mx-2 text-blue-700'><BsArrowRightCircleFill></BsArrowRightCircleFill></span></button>
+        <div>
+            <div className='grid grid-cols-1 mx-auto md:grid-cols-2 lg:grid-cols-3 max-w-6xl'>
+                {
+                    services.map((service, i) => <ServiceCard key={service._id} service={service} icon={icons[i]}></ServiceCard>)
+                }
+
             </div>
+            <Team></Team>
         </div>
     );
 };

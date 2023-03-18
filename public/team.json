@@ -1,0 +1,20 @@
+[
+    {
+        "_id": 1,
+        "name": "Christina Torres",
+        "designation": "Company Manager",
+        "img": "https://demo.themexbd.com/wpt/techit/wp-content/uploads/2020/07/t1.jpg"
+    },
+    {
+        "_id": 2,
+        "name": "Jeanet Kingston",
+        "designation": "CEO & Funder",
+        "img": "https://demo.themexbd.com/wpt/techit/wp-content/uploads/2020/07/t2.jpg"
+    },
+    {
+        "_id": 3,
+        "name": "Robert Cooper",
+        "designation": "Web Designer",
+        "img": "https://demo.themexbd.com/wpt/techit/wp-content/uploads/2020/07/t3.jpg"
+    }
+]
