@@ -7,11 +7,33 @@
     right: 0;
 }
 
-.member-details:hover .team-parant .team-body {
-    right: 0;
+.team-parant:hover .team-icon {
+    top: 0;
+}
+
+.team-parant:hover .member-details .arrow-icon {
+    margin-bottom: -70px;
+
+}
+
+.team-parant .member-details .arrow-icon {
+    transition: 1s;
+}
+
+.team-parant .member-details .arrow-icon:hover {
+    background-color: rgb(61, 61, 236);
+    color: white;
+}
+
+.team-parant .member-details {
+    /* margin-left: 60px; */
+    /* background-color: black; */
+}
+
+.team-icon {
+    transition: 1s;
 }
 
 .team-body .social-icon:hover {
     color: orange;
-    transition: 1s;
 }
