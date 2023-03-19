@@ -29,12 +29,14 @@ const Team = () => {
                             }
                         </div>
                     </div>
-                    <div className='ml-[40px] lg:ml-[20px] mt-[-50px] rounded-md  shadow-lg absolute flex justif-between items-center bg-white py-2 lg:px-10 px-[60px] member-details'>
-                        <div className=''>
-                            <h1 className='text-2xl font-bold'>Christina Torres</h1>
-                            <p className='text-lg'>Company Manager</p>
+                    <div className='flex justify-center items-center'>
+                        <div className='mt-[-20px] rounded-md  shadow-lg absolute flex justif-between items-center member-details bg-white py-2 px-10'>
+                            <div className=''>
+                                <h1 className='text-2xl font-bold'>Christina Torres</h1>
+                                <p className='text-lg'>Company Manager</p>
+                            </div>
+                            <button className='p-1 rounded-full ml-8  mr-[-55px] md:mr-0 text-3xl bg-white text-blue-500 flex justify-center items-center arrow-icon'><BsArrowRightCircleFill className=''></BsArrowRightCircleFill></button>
                         </div>
-                        <button className='p-1 rounded-full  ml-10 text-3xl text-blue-500 flex justify-center items-center arrow-icon'><BsArrowRightCircleFill className=''></BsArrowRightCircleFill></button>
                     </div>
                 </div>
 
@@ -50,12 +52,14 @@ const Team = () => {
                             }
                         </div>
                     </div>
-                    <div className='ml-[40px] lg:ml-[20px] mt-[-50px] rounded-md  shadow-lg absolute flex justif-between items-center bg-white py-2 lg:px-10 px-[60px] member-details'>
-                        <div className=''>
-                            <h1 className='text-2xl font-bold'>Jeanet Kingston</h1>
-                            <p className='text-lg'>CEO & Funder</p>
+                    <div className='flex justify-center items-center'>
+                        <div className='mt-[-20px] rounded-md  shadow-lg absolute flex justif-between items-center member-details bg-white py-2 px-10'>
+                            <div className=''>
+                                <h1 className='text-2xl font-bold'>Jeanet Kingston</h1>
+                                <p className='text-lg'>CEO & Funder</p>
+                            </div>
+                            <button className='p-1 rounded-full ml-8  mr-[-55px] md:mr-0 text-3xl bg-white text-blue-500 flex justify-center items-center arrow-icon'><BsArrowRightCircleFill className=''></BsArrowRightCircleFill></button>
                         </div>
-                        <button className='p-1 rounded-full  ml-10 text-3xl text-blue-500 flex justify-center items-center arrow-icon'><BsArrowRightCircleFill className=''></BsArrowRightCircleFill></button>
                     </div>
                 </div>
                 <div className='mb-[70px] mx-3 lg:mx-auto team-parant'>
@@ -70,12 +74,14 @@ const Team = () => {
                             }
                         </div>
                     </div>
-                    <div className='ml-[40px] lg:ml-[20px] mt-[-50px] rounded-md  shadow-lg absolute flex justif-between items-center bg-white py-2 lg:px-10 px-[60px] member-details'>
-                        <div className=''>
-                            <h1 className='text-2xl font-bold'>Robert Cooper</h1>
-                            <p className='text-lg'>Web Designer</p>
+                    <div className='flex justify-center items-center'>
+                        <div className='mt-[-20px] rounded-md  shadow-lg absolute flex justif-between items-center member-details bg-white py-2 px-10'>
+                            <div className=''>
+                                <h1 className='text-2xl font-bold'>Robert Cooper</h1>
+                                <p className='text-lg'>Web Designer</p>
+                            </div>
+                            <button className='p-1 rounded-full ml-8  mr-[-55px] md:mr-0 text-3xl bg-white text-blue-500 flex justify-center items-center arrow-icon'><BsArrowRightCircleFill className=''></BsArrowRightCircleFill></button>
                         </div>
-                        <button className='p-1 rounded-full  ml-10 text-3xl text-blue-500 flex justify-center items-center arrow-icon'><BsArrowRightCircleFill className=''></BsArrowRightCircleFill></button>
                     </div>
                 </div>
             </div>
